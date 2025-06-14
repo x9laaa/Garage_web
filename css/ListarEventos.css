@@ -1,0 +1,57 @@
+﻿#contenido-principal {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+    #contenido-principal h1 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+
+.gridview {
+    margin: 0 auto;
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+    text-align: left;
+}
+
+    .gridview th {
+        background: #2980b9;
+        color: #fff;
+        padding: 12px;
+        border-bottom: 2px solid #1c5980;
+    }
+
+    .gridview td {
+        padding: 10px 12px;
+        border-bottom: 1px solid #ddd;
+    }
+
+        .gridview td:last-child {
+            text-align: center;
+        }
+
+    .gridview tr:hover {
+        background-color: #f2f2f2;
+        transition: background 0.3s ease;
+    }
+
+    .gridview .select-button {
+        background: #3498db;
+        color: #fff;
+        padding: 6px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .gridview .select-button:hover {
+            background: #217dbb;
+        }
