@@ -1,0 +1,6 @@
+C:\Users\Alex\source\repos\Garage_Data\bin\Release\Garage_Data.dll
+C:\Users\Alex\source\repos\Garage_Data\bin\Release\Garage_Data.pdb
+C:\Users\Alex\source\repos\Garage_Data\obj\Release\Garage_Data.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\Garage_Data\obj\Release\Garage_Data.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Garage_Data\obj\Release\Garage_Data.dll
+C:\Users\Alex\source\repos\Garage_Data\obj\Release\Garage_Data.pdb

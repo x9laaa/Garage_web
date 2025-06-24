@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Garage_UI.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Garage</title>
+    <link href="css/MasterPage.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="navbar">
+
+                <ul class="menu">
+                    <li><a href="Home.aspx">Inicio</a></li>
+                    <li><a href="AgregarEvento.aspx">Agregar Evento</a></li>
+                    <li><a href="ListarEventos.aspx">Listar Evento</a></li>
+                </ul>
+                <div class="logo">
+                    <a href="Home.aspx">
+                        <img src="img/logo.png" alt="Logo" />
+                    </a>
+                </div>
+            </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+</body>
+</html>
